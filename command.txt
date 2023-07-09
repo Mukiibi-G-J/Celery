@@ -1,0 +1,4 @@
+ pip install django celery 
+ choco install rabbitmq
+ celery -A core worker -l info
+ celery -A core worker -l info --pool=solo //windows
